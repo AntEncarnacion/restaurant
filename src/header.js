@@ -1,9 +1,11 @@
+import Logo from './acai_logo_horizontal.png';
+
 const header = () => {
   const header_tag = document.createElement("header");
   const content_tag = document.getElementById("content");
   header_tag.id = "nav";
   header_tag.innerHTML = ` <div class="logo">
-  <img src="../src/acai_logo_horizontal.png" alt="" width="500" />
+  <img src=${Logo} alt="" width="500" />
 </div>
 <nav>
   <ul>

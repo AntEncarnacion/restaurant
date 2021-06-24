@@ -1,3 +1,7 @@
+import Person_1 from './persondoesntexist1.jpg';
+import Person_2 from './persondoesntexist2.jpg';
+import Person_3 from './persondoesntexist3.jpg';
+
 const about = () => {
   const main_tag = document.createElement("main");
   const content_tag = document.getElementById("content");
@@ -5,7 +9,7 @@ const about = () => {
   main_tag.innerHTML = `<div class="card">
   <div class="container">
     <img
-      src="../src/persondoesntexist1.jpg"
+      src=${Person_1}
       alt="Avatar"
       style="width: 20%"
     />
@@ -25,7 +29,7 @@ const about = () => {
 <div class="card">
   <div class="container">
     <img
-      src="../src/persondoesntexist2.jpg"
+      src=${Person_2}
       alt="Avatar"
       style="width: 20%"
     />
@@ -45,7 +49,7 @@ const about = () => {
 <div class="card">
   <div class="container">
     <img
-      src="../src/persondoesntexist3.jpg"
+      src=${Person_3}
       alt="Avatar"
       style="width: 20%"
     />
