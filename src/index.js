@@ -2,7 +2,6 @@ import home from "./home-tab";
 import menu from "./menu-tab";
 import about from "./about-tab";
 import header from "./header";
-import "./style.css";
 
 const display_controller = (function (doc) {
   const tab_tag = document.getElementById("tab");
